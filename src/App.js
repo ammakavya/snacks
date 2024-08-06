@@ -30,7 +30,7 @@ const items =[ 'snacks']
 function App() {
   return (
    <>
-      {/* <Navbar pages={items}/> */}
+      <Navbar pages={items}/>
    <Routes>
     <Route path='DryFruitSweet' element={<Dryfruitsweet/>}/>
     <Route  path='/SnackCard' element={<DescriptionPage/>} />
@@ -39,13 +39,13 @@ function App() {
     <Route  path='/Cake' element={<Snacks/>} />
    </Routes>
    
-{/* <ThumbnailSlideShow data={slideshowData}/> */}
+<ThumbnailSlideShow data={slideshowData}/>
 {/* <br/> */}
-{/* <Categories /> */}
-{/* <CategoriesTab/> */}
-{/* <ThumbnailCard  data ={snacksdata} title="Dryfruitsweet"/> */}
-{/* <ThumbnailCard  data ={snacks} title="snacks"/> */}
-{/* <ThumbnailCard  data ={sweets} title="sweets"/> */}
+<Categories />
+<CategoriesTab/>
+<ThumbnailCard  data ={snacksdata} title="Dryfruitsweet"/>
+<ThumbnailCard  data ={snacks} title="snacks"/>
+<ThumbnailCard  data ={sweets} title="sweets"/>
 {/* <DescriptionPage/> */}
 {/* <SnackFilter/> */}
 {/* <ResumeK1 /> */}
